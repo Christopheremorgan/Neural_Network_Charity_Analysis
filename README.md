@@ -1,8 +1,14 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview of the analysis: 
+Build a deep learning model that predicts whether applicants are likely to be successful if funded by the charitable organization, Alphabet Soup.
 
-Explain the purpose of the loan prediction analysis.
+Alphabet Soup’s business team provided a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization and whether the project was successful.
+
+The Python packages Pandas and SciKit-Learn are used to:
+- preprocess the data
+- compile, train, and evaluate the neural network model
+- optimize the model 
 
 ## Results: 
 Using bulleted lists and images to support your answers, address aal 6 of the following questions.
