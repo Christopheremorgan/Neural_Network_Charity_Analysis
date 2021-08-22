@@ -13,11 +13,26 @@ The Python packages Pandas and SciKit-Learn are used to:
 ## Results: 
 Using bulleted lists and images to support your answers, address aal 6 of the following questions.
 
-Data Preprocessing
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
-Compiling, Training, and Evaluating the Model
+### Data Preprocessing
+Model Target Variable (y): IS_SUCCESSFUL 
+- The model objective is to predict whether funding will be successful
+
+Model variables considered features:
+- Application Type
+- Affiliation
+- Classification
+- Use Case
+- Organization
+- Status
+- Income Amount
+- Special Considerations
+- Ask Amount
+
+Variable(s) removed from the input data because they are neither targets nor features:
+- EIN
+- Name of funding recipient
+
+### Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
